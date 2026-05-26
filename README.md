@@ -1,138 +1,123 @@
-# Manual QA Testing Portfolio
+# QA Portfolio Lab
 
-This repository contains my Manual QA Testing Portfolio, created as part of my career transition into Quality Assurance.  
-It demonstrates structured manual testing practices, clear documentation, and a strong problem-solving mindset built from a technical industrial background.
+Professional QA Engineering laboratory focused on modern software testing, automation engineering, and production-like QA environments.
 
-## Project Overview
+---
 
-This portfolio showcases my skills in:
+# Objectives
 
-- Manual Software Testing  
-- Test Case Design  
-- Test Documentation  
-- Exploratory Testing  
-- Bug Reporting  
-- QA Best Practices  
+This repository was created to:
 
-The repository includes multiple systems under test, commonly used in QA practice, to demonstrate versatility and real-world testing scenarios.
+- Practice real-world QA Engineering
+- Build scalable automation frameworks
+- Develop API and UI testing skills
+- Learn CI/CD workflows
+- Improve backend validation and database testing
+- Simulate enterprise QA environments
 
-## Systems Under Test
+---
 
-### 1. SauceDemo
-- **URL:** https://www.saucedemo.com  
-- **Type:** Web application (E-commerce)  
-- **Purpose:** Functional testing of a complete purchase flow  
+# Main Areas
 
-### 2. DemoQA – Automation Practice Form
-- **URL:** https://demoqa.com/automation-practice-form  
-- **Type:** Web application (Form-based)  
-- **Purpose:** Form validation and input testing  
+## QA Manual
+Structured manual testing documentation including:
+- Test cases
+- Bug reports
+- Exploratory testing
+- API validation
 
-### 3. JSONPlaceholder API
-- **URL:** https://jsonplaceholder.typicode.com  
-- **Type:** Public REST API (Fake API)  
-- **Purpose:** Manual API testing using CRUD operations (GET, POST, PUT, PATCH, DELETE)  
+## QA Automation
+Automation framework architecture using:
+- Python
+- Pytest
+- Playwright
+- Requests
 
-## Test Objectives
+## QA API
+API testing and validation:
+- REST APIs
+- CRUD testing
+- Payload validation
+- API automation
 
-- Validate core application functionalities  
-- Verify form validation rules and user input handling  
-- Identify functional and usability issues  
-- Apply structured manual QA methodologies  
-- Demonstrate professional QA documentation standards  
+## QA Database
+Database validation and SQL practice:
+- PostgreSQL
+- Data validation
+- SQL queries
 
-## Test Scope
+## Infrastructure & DevOps
+Environment and tooling:
+- Linux
+- Docker
+- GitHub Actions
+- CI/CD
+- Observability
 
-### In Scope
+---
 
-**SauceDemo**
-- Login and authentication  
-- Product listing and sorting  
-- Shopping cart functionality  
-- Checkout process  
+# Main Stack
 
-**DemoQA (Forms)**
-- Required fields validation  
-- Invalid input handling (email, phone number)  
-- Boundary testing  
-- File upload validation  
-- Successful form submission  
+- Python
+- Pytest
+- Playwright
+- Requests
+- PostgreSQL
+- Docker
+- Linux
+- GitHub Actions
+- Grafana
 
-**JSONPlaceholder API**
-- CRUD operations (GET, POST, PUT, PATCH, DELETE)
-- Positive and negative API scenarios
-- Status code validation
-- Response body validation
+---
 
-### Out of Scope
+# Repository Structure
 
-- Performance testing  
-- Security testing  
-- Load and stress testing  
-- Mobile responsiveness  
-
-## Test Types Performed
-
-- Functional Testing  
-- Smoke Testing  
-- Exploratory Testing  
-- Regression Testing (basic)  
-- Boundary Value Testing 
-- Manual API Testing 
-
-## Test Documentation Structure
-``` 
-manual/
-├── test-cases        → Detailed manual test cases
-├── docs              → Test scope, scenarios, system overview
-└── bug-reports        → Documented defects and observations
+```text
+qa-portfolio-lab/
+├── docs/
+├── environments/
+├── qa-api/
+├── qa-automation/
+├── qa-database/
+├── qa-manual/
+├── scripts/
+├── docker/
+├── test-data/
+└── portfolio-showcase/
 ```
 
-### Documentation Includes
+---
 
-- Test Scenarios  
-- Detailed Test Cases (steps and expected results)  
-- Exploratory Testing Notes  
-- Bug Reports with severity and priority  
+# Current Focus
 
-## Defect Reporting
+- Linux fundamentals
+- QA architecture
+- Python automation foundations
+- API testing
+- Framework engineering
 
-Defects are documented using a structured format, including:
+---
 
-- Clear reproduction steps  
-- Expected vs. actual results  
-- Severity and priority  
-- Environment information  
-- Notes and observations  
+# Future Goals
 
-Some demo systems may intentionally contain limited or inconsistent validations; these behaviors are documented as QA observations.
+- UI automation framework
+- Dockerized testing environments
+- CI/CD pipelines
+- Kubernetes basics
+- Observability dashboards
+- Production-like QA workflows
 
-## Tools Used
+---
 
-- Web Browser (Chromium-based)  
-- Postman (Manual API Testing)  
-- Git & GitHub  
-- Markdown  
-- Visual Studio Code  
+# Author
 
-## Author
+Bruno Barreto
 
-**Bruno Barreto**  
-QA Analyst (Manual) — Career Transition  
-Technical Background | Manual Testing | English Fluent | Remote-Ready
+QA Engineer in transition focused on:
+- Automation Engineering
+- API Testing
+- Python Automation
+- Modern QA Practices
 
-**LinkedIn:** https://www.linkedin.com/in/bbarretosilveira  
-
-## Continuous Improvement
-
-This portfolio will continue to evolve with:
-
-- Additional manual test cases  
-- Expanded bug reports  
-- New systems under test  
-- Advanced API testing and validation
-- Future transition to test automation using Python
-
-## Final Note
-
-This repository reflects my hands-on approach to Quality Assurance, emphasizing practical manual testing, structured test documentation, and analytical thinking. It showcases how I design test cases, explore system behavior, and document results following professional QA practices.
+LinkedIn:
+https://www.linkedin.com/in/bbarretosilveira
