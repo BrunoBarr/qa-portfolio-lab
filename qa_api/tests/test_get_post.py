@@ -7,6 +7,7 @@ def test_get_post_by_id():
     )
 
     body = response.json()
+    print(body)
 
     assert response.status_code == 200
     assert body["id"] == 1
