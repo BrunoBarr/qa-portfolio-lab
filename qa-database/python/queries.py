@@ -56,3 +56,61 @@ def create_user(full_name, email):
     connection.close()
 
     return user_id
+
+def deactivate_user(user_id):
+    connection = get_connection()
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        UPDATE users
+        SET active = FALSE
+        WHERE id = %s;
+        """,
+        (user_id,)
+    )
+
+    connection.commit()
+
+    cursor.close()
+    connection.close()
+
+def delete_user(user_id):
+    connection = get_connection()
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        DELETE FROM users
+        WHERE id = %s;
+        """,
+        (user_id,)
+    )
+
+    connection.commit()
+
+    cursor.close()
+    connection.close()
+
+def user_exists(user_id):
+    connection = get_connection()
+
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        SELECT *
+        FROM users
+        WHERE id = %s;
+        """,
+        (user_id,)
+    )
+
+    user = cursor.fetchone()
+
+    cursor.close()
+    connection.close()
+
+    return user is not None
